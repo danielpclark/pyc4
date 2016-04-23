@@ -1,0 +1,21 @@
+___ALL FILES ARE REQUIRED AND CASE SENSITIVE AND SIZE (WIDTH/HEIGHT) SENSITIVE___
+
+"6dlogo.gif"		start up logo (400x400)
+"6dsoft.gif"		start up company name (420x65)
+"arrowl.gif"		left arrow (38x38)
+"arrowr.gif"		right arrow (38x38)
+"background.gif"	background of the game (660x480)
+"blackblock.gif"	black piece entered (60x60)
+"C4icon.ico"		game icon (32x32)
+"emptyblock.gif"	empty block, no piece entered (60x60)
+"fblackblock.gif"	flat black block (60x20)
+"femptyblock.gif"	flat empty (60x20)
+"fredblock.gif"		flat red block (60x20)
+"redblock.gif"		red block (60x60)
+"sdl_prgb.gif"		start up sdl logo (240x120)
+"startmenu.gif"         menu for choosing game play (400x480)		#NOT USED
+                        B1=[82,106,306,171] # Button 1 (Local Play)	#NOT USED
+                        B2=[82,171,306,253] # Button 2 (Network)	#NOT USED
+                        B3=[82,253,306,350] # Button 3 (Just Play)	#NOT USED
+"wblackblock.gif"	winner's highlighted black block (60x60)
+"wredblock.gif"		winner's highlighted red block (60x60)

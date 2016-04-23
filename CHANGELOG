@@ -1,0 +1,46 @@
+Py Connect Four
+===============
+
+1.7b - 0.0.9b Clean Up, Snapshot friendly
+	F12 takes snapshot at anytime during game
+	Unrepeatable snapshot naming
+	Globalized and made dynamic font loading
+	Shrink font to fit in place (SDL ttf library changed since pygame 1.2)
+	Prints "Snapshot Taken"
+	Play Again Menu and Escape Menu Cleaned up
+
+
+1.2 - 0.0.6 Text input fixed, command line options added
+	added command line options
+	 - added "help" option, displays available commands
+	 - added "info" option, displays game/author info
+	 - added "audio" and "images" for defining (a) custom audio/image directory(s)
+	modified text input, works great now
+	renamed setup.py to win32build.py (used for py2exe)
+
+1.1 - 0.0.5 Some optimization, Full commentation:
+        added todo notes
+        commented completely
+        the piece input control should run a small fracttion of a second faster
+        optimized for Linux (I had some errors, they're gone now)
+
+1.1 - 0.0.4 Clean up, New features added:
+        converted images (to save space)
+        removed font bluemoon
+        can now quit by clicking x box
+        trimmed down in general file size
+        professional installation package made (for windows)
+
+1.0 - 0.0.3 New features added:
+        added right click option to pick up piece
+        added license to package(s) (old and new)
+
+1.0 - 0.0.2 Public Release. New features added:
+        sound effects added
+        ends game when there are no more possible moves
+        take a screenshot while in the play again menu and esc menu
+        all pieces remain visible when marking winning pieces
+        at start, note to hit space added
+
+0.9 - 0.0.1
+        7 days of work, fully functional game, just the basics

@@ -1,0 +1,99 @@
+Py Connect Four
+===============
+
+Py Connect Four is a simple connect four game.  The classic!  This is a 2 player game
+where each player enters their name, then takes turn putting their pieces in trying
+to get 4 in a row first.
+
+
+About
+=====
+
+The Version format goes *.* - #.#.#.  Where *.* is the public release version, and #.#.# is the code revision number.
+
+http://www.freshmeat.net/projects/pyc4/
+
+
+
+
+Required Packages
+=================
+
+Python 2.0 or later
+    http://www.python.org
+PyGame 1.2 or later
+    http://www.pygame.org
+
+
+
+Execution Requirements
+======================
+
+Right now, you'll have to do this on your own, I'll eventually right a script for it.
+Copy the files recursively to where ever you would like.  And make a link to the c4.py file.
+make sure the c4.py file has the correct executable in the first line, it should look like
+#!/usr/bin/env PYTHONEXECUTABLE
+where the PYTHONEXECUTABLE is a version of python 2.0 or later and that version of Python MUST
+have PyGame installed.
+
+
+
+How-To
+======
+
+If the variable on line 1 of c4.py is the correct executable for Python, simply type ./c4.py
+to execute.  Other-wise type Python (if this is version 2.0 or later) and then c4.py.  E.G.
+Python2 c4.py
+You may also define your own image and/or audio directory.  Where atleast 1 image directory is
+required an audio directory is not required to run the program.  To set the audio directory to
+one of you liking, you can type the following
+./c4.py -audio myAudioSubDir
+or
+python2 c4.py -audio myAudioSubDir
+and the game will then use the audio files in the directory you provided.  Same thing can be
+done for all of the images in the game, just instead of -audio, type -images and specify your
+image directory.
+!!NOTICE!! IF YOU SPECIFY A DIRECTORY FOR EITHER/BOTH IMAGE/AUDIO YOU WILL NEED TO HAVE ALL OF
+THE FILES NAMED AS THE ORIGINAL FILE NAMES IN THAT DIRECTORY, ALL MUST EXIST!  BUT IF YOU
+SPECIFY AN AUDIO DIRECTORY THAT DOES NOT EXIST, AUDIO WILL SIMPLY BE DISABLED.
+If you want you can have blank short waves with names of sounds you don't care to hear, just make
+sure you have the required sound filess.
+
+If you want a complete listing of all images/audio needed, you'll find it in AUDIOFILES and
+IMAGEFILES.
+
+Also at the command line you can type either help/info for help on the commands available, or info
+about the game/author.
+
+
+
+How-To Game-Play
+================
+
+At the start, 2 players are required to enter their names.  The first to enter his/her name in will
+be player one, which uses the Black piece in the game.  2nd player uses red.  Black always starts
+the game off.  Once in game play, each player is required to pick up a piece, as the turn happens.
+To pick up a piece you must either hit the space key, ot right click with the mouse.  Then to place
+the picked up piece, you use the left mouse button, dropping it into the column you chose.  Simply
+move the mouse over the column where you'd like to have your piece dropped, then left click there.
+The goal is to get 4 pieces of your color in a row, at any angle.  Once you win/lose, you are given
+the option of starting a new game, or quiting.  If you are to continue, your score is tallied up, and
+a new game begins.  At any time during the game you may hit escape to chose to quit.
+
+
+
+Hot-Keys
+========
+
+ESCAPE	gives the option to quit the game
+F12	takes a snapshot of the game, saves it in the the game directory as screenshot######.bmp
+SPACE	picks up a pice while in gameplay
+Y or N	Y for yes in the escape or play-again menus and N for no in the same menus
+
+
+Author(s)
+=======
+
+Daniel P. Clark - program
+Daniel P. Clark - docs
+Daniel P. Clark - website
